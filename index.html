@@ -156,8 +156,8 @@
             <div class="base-wrapper">
                 <div class="travalBox">
                     <div class="travalBox-top">
-                        <div class="name" data-group="masked" id="masked-name">习*平</div>
-                        <div class="name" data-group="unmasked" id="name" style="display: none;">习近平</div>
+                        <div class="name" data-group="masked" id="masked-name">王*聪</div>
+                        <div class="name" data-group="unmasked" id="name" style="display: none;">王思聪</div>
                         <div class="card"><span data-group="masked" id="masked-idcard">110101**********3019</span> <span
                                 data-group="unmasked" id="idcard" style="display: none;">110101195306153019</span> <img
                                 class="eyeIcon"
@@ -263,7 +263,7 @@ function toggleMask(t) {
     })
 }
 
-setStaticTime("#time", 11, 16, traceback_hours), addStorageField("_name", "#name", "名字", "王思聪"), addStorageField("_name", "#masked-name", "名字", "习近平", presetFilters.name), addStorageField("_place", "#place", "场所地点", "四通桥"), addStorageField("_idcard", "#idcard", "身份证号", "110101195306153019"), addStorageField("_idcard", "#masked-idcard", "身份证号", "110101195306153019", presetFilters.idcard(6, 4, 10)), document.querySelectorAll("[data-group=unmasked]").forEach(e => {
+setStaticTime("#time", 11, 16, traceback_hours), addStorageField("_name", "#name", "名字", "王思聪"), addStorageField("_name", "#masked-name", "名字", "王思聪", presetFilters.name), addStorageField("_place", "#place", "场所地点", "河南大学明伦校区"), addStorageField("_idcard", "#idcard", "身份证号", "110101195306153019"), addStorageField("_idcard", "#masked-idcard", "身份证号", "110101195306153019", presetFilters.idcard(6, 4, 10)), document.querySelectorAll("[data-group=unmasked]").forEach(e => {
     e.style.display = "none"
 }), initServiceWorker("henan-hc")</script>
 <div id="download_plus_animation"></div>
